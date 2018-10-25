@@ -1,12 +1,12 @@
-@extends('layout.default')
+@extends('Layout.default')
 
 @section('contents')
 
-    @include('layout._errors')
+    @include('Layout._errors')
     <form method="post" style="width:80%" enctype="multipart/form-data"  action="{{ route('shop_category.update',[$shopCategory]) }}" >
         <div class="form-group" >
-            <h1>修改分类</h1>
-            <label>分类名</label>
+            <h1>修改管理员账号</h1>
+            <label>用户名</label>
                 <input type="text" name="name" class="form-control"  value="{{ $shopCategory->name}}">
             <label>分类图片</label>
              <img class="img-circle" src="{{ Illuminate\Support\Facades\Storage::url($shopCategory->img)}}"/>

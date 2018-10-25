@@ -1,8 +1,8 @@
-@extends('layout.default')
+@extends('Layout.default')
 
 @section('contents')
 
-    @include('layout._errors')
+    @include('Layout._errors')
     <form method="post" style="width:80%" enctype="multipart/form-data"  action="{{ route('shop_category.store') }}" enctype="multipart/form-data">
         <div class="form-group" >
             <h1>添加分类</h1>

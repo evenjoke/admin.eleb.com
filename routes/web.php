@@ -15,3 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::resource('shop_category','ShopCategoryController');
+Route::resource('admin','AdminController');

@@ -1,4 +1,4 @@
-@extends('layout.default')
+@extends('Layout.default')
 
 @section('contents')
     <table class="table table-bordered table-striped">
