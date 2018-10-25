@@ -79,15 +79,15 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    欢迎来到<strong>evenjoke外卖平台</strong>
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://laravel.com/docs">点餐</a>
+                    <a href="shop.eleb.com/shop/create">商家注册</a>
+                    <a href="https://laravel-news.com">配送服务</a>
+                    <a href="https://forge.laravel.com">管理员登陆</a>
+                    <a href="https://github.com/laravel/laravel">查看我的店铺</a>
                 </div>
             </div>
         </div>
