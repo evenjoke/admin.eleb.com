@@ -1,6 +1,4 @@
 @extends('layout.default')
-
-
 @section('contents')
     <div class="col-md-offset-2 col-md-8">
         <div class="panel panel-default">
