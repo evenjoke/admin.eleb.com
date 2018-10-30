@@ -1,18 +1,21 @@
-@extends('layout.default')
+
+@extends('Layout.default')
 @section('contents')
+    @include('vendor.ueditor.assets')
     <div class="col-md-offset-2 col-md-8">
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h5>管理员注册</h5>
 
             </div>
-            @include('layout._errors')
+            @include('Layout._errors')
             <div class="panel-body">
                 <form method="POST"  action="{{ route('admin.store') }}">
                     <div class="form-group">
                         <label for="name">用户名：</label>
                         <input type="text" name="name" class="form-control" value="{{ old('name') }}">
                     </div>
+                    <!-- 实例化编辑器 -->
 
                     <div class="form-group">
                         <label for="email">邮箱：</label>

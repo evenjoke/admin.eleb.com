@@ -1,4 +1,4 @@
-@extends('layout.default')
+@extends('Layout.default')
 
 
 @section('contents')
@@ -8,7 +8,7 @@
                 <h5>管理员密码修改</h5>
 
             </div>
-            @include('layout._errors')
+            @include('Layout._errors')
             <div class="panel-body">
                 <form method="post"  action="{{ route('admin.pwd_update',[$admin])}}">
                   {{--  <div class="form-group">

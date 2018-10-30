@@ -1,4 +1,4 @@
-@extends('layout.default')
+@extends('Layout.default')
 
 
 @section('contents')
@@ -8,7 +8,7 @@
                 <h5>管理员信息修改</h5>
 
             </div>
-            @include('layout._errors')
+            @include('Layout._errors')
             <div class="panel-body">
                 <form method="POST"  action="{{ route('admin.update',[$admin])}}">
                     <div class="form-group">

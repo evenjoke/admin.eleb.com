@@ -1,7 +1,7 @@
-@extends('layout.default')
+@extends('Layout.default')
 
 @section('contents')
-    @include('layout._errors')
+    @include('Layout._errors')
     <h1>管理员登录</h1>
     <form method="post" action="{{ route('store') }}">
         <div class="form-group">

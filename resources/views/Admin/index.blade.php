@@ -1,4 +1,4 @@
-@extends('layout.default')
+@extends('Layout.default')
 @section('contents')
 <table class="table table-bordered table-striped" >
     <tr>
@@ -19,7 +19,6 @@
             <td>{{$admin->updated_at}}</td>
             <td>
                 <span class="label label-warning"><a href="{{route('admin.edit',[$admin->id])}}">修改</a></span>
-
 
                 <form method="post" action="{{route('admin.destroy',[$admin->id])}}">
                     {{ csrf_field() }}
