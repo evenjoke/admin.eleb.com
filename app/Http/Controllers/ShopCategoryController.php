@@ -18,7 +18,7 @@ class ShopCategoryController extends Controller
     }
     public function index()
     {
-        $shopCategorys = DB::table('shop_categories')->where('status','=',1)->paginate(1);
+        $shopCategorys = DB::table('shop_categories')->where('status','=',1)->paginate(5);
         //dd($shopCategorys);
         return view('ShopCategory.index',compact('shopCategorys'));
     }

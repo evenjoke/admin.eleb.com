@@ -105,6 +105,6 @@ class ActivityController extends Controller
         $date=date("Y-m-d h:i:s");
        // dd($date);
         $activitys=DB::table('activities')->where('end_time','>=',$date)->paginate(5);
-        return view('Activity.index',compact('activitys'));
+        return view('Activity.list',compact('activitys'));
     }
 }
